@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Arial Narrow Bold", sans-serif;
+  }
+
+  body {
+    background: url(/pics/pexels-rpnickson-2559941.jpg) no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    height: 100vh;
+  }
+
+  .container {
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 1rem;
+    min-height: 45vh;
+    width: 65vh;
+  }
+
+  form {
+    margin: 2rem 0 1rem 0;
+  }
+
+  .dropdown {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-right: 0.75rem;
+  }
+
+  .from,
+  .to {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0.5rem 0 1rem 0;
+    border-radius: 0.5rem;
+    border: 1px solid lightgray;
+    font-size: 1rem;
+    height: 3rem;
+    padding-left: 0.5rem;
+  }
+
+  form input,
+  select,
+  button {
+    border: none;
+    outline: none;
+    border-radius: 0.4rem;
+  }
+  input{
+    height: 2rem;
+    width: 50%;
+    padding-left: 0.5rem;
+  }
+  
+ 
+  select {
+    width: 80px;
+  }
+
+  form img {
+    max-width: 1.75rem;
+  }
+
+  .icon {
+    width: 2rem;
+    margin: 0.5rem auto;
+  }
+
+  .side-border {
+    height: 1rem;
+    border-left: 1px solid #3c4043;
+  }
+
+  button {
+    width: 100%;
+    padding: 0.75rem;
+    background-color: #3c4043;
+    color: #fff;
+    cursor: pointer;
+  }
